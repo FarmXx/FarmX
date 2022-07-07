@@ -20,8 +20,6 @@ interface IMigratorChef {
     function migrate(IERC20 token) external returns (IERC20);
 }
 
-// MasterChef is the master of fmx. He can make fmx and he is a fair guy.
-//
 // Note that it's ownable and the owner wields tremendous power. The ownership
 // will be transferred to a governance smart contract once fmx is sufficiently
 // distributed and the community can show to govern itself.
